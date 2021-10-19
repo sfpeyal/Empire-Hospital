@@ -1,0 +1,9 @@
+.doctor-container{
+    background-color: rgb(172, 60, 60);
+    padding-bottom: 100px;
+}
+.doctor-container h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(48, 83, 117);
+font-weight: 400;
+}

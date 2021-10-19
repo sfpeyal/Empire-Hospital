@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Surgery",
+        "picture": "https://static.scientificamerican.com/sciam/cache/file/557B07E7-0F2B-41DA-82D2B2DFE94433FA_source.jpg",
+        "info": "we provie our best treatment."
+    },
+    {
+        "id": 2,
+        "name": "X-ray",
+        "picture": "https://www.ucsfbenioffchildrens.org/-/media/project/ucsf/ucsf-bch/images/medical-tests/hero/chest-x-ray-708x556-2x.jpg?h=1112&w=1416&hash=2A3F5D18C7007146A3644D5028949E2D",
+        "info": "we provie our best treatment."
+    },
+    {
+        "id": 3,
+        "name": "Covid-Test",
+        "picture": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iUEXlwQ5beZA/v1/-1x-1.jpg",
+        "info": "we provie our best treatment."
+    },
+    {
+        "id": 4,
+        "name": "ICU Unit",
+        "picture": "https://www.icumed.com/media/8604/infusiontherapy.png?anchor=center&mode=crop&width=1440&heightratio=0.8541666666666666666666666667&format=jpg&quality=60&slimmage=true&rnd=131957251940000000",
+        "info": "we provie our best treatment."
+    },
+    {
+        "id": 5,
+        "name": "Emergency",
+        "picture": "https://media.istockphoto.com/vectors/ambulance-emergency-automobile-car-vector-illustration-flat-cartoon-vector-id1058678830?k=20&m=1058678830&s=612x612&w=0&h=sRbNy5dmpfgZI4arUQOefvdfmQbl1xZ7IU7IC83w7t0=",
+        "info": "we provie our best treatment."
+    },
+    {
+        "id": 6,
+        "name": "Burn Unit",
+        "picture": "https://www.sfexaminer.com/wp-content/uploads/2019/02/st-_francis_burn_unit2.jpg",
+        "info": "we provie our best treatment."
+    }
+]
