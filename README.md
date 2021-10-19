@@ -1,6 +1,6 @@
 # Empire Hospital
 
-This ts the website of Empire Hospital - site link for your kind visit :[Empire Hospital](https://the-mathlab.netlify.app/)
+This ts the website of Empire Hospital - site link for your kind visit :[Empire Hospital](https://empire-hospital.web.app/)
 
 Purpose of this site:
 <ul>
