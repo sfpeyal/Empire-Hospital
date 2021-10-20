@@ -1,12 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 import './Login.css'
 
 const Login = () => {
     const { signInUsingGoogle, handleEmailChange, handlePasswordChange, LoginProcess } = useAuth();
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.form || '/home';
 
+    const handleGoogleLogin = () => {
+        signInUsingGoogle()
+            .then(result => {
+                history.push(redirect_uri)
+            })
 
+    }
 
     return (
         <div className="form-container container d-flex justify-content-center align-items-center">
@@ -22,13 +31,13 @@ const Login = () => {
                         <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
                         <input onBlur={handlePasswordChange} type="password" className="form-control" id="exampleInputPassword1" required />
                     </div>
-                    <button onClick={signInUsingGoogle} type="submit" className="btn btn-primary">Login</button>
+                    <button type="submit" className="btn btn-primary">Login</button>
                     <br />
                     <br />
                     <p>Create Account?<Link to="/registration"> Go Here</Link></p>
                 </form>
                 <div>
-                    <button onClick={signInUsingGoogle} type="submit" className="btn btn-primary">Login with Google</button>
+                    <button onClick={handleGoogleLogin} type="submit" className="btn btn-primary">Login with Google</button>
                 </div>
             </div>
 

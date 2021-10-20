@@ -22,7 +22,7 @@ const Registration = () => {
                         <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
                         <input onBlur={handlePasswordChange} type="password" className="form-control" id="exampleInputPassword1" required />
                     </div>
-                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <button type="submit" className="btn btn-primary">Registr</button>
                     <br />
                     <br />
                     <p>Already have an Account?<Link to="/login"> Go Here</Link></p>
