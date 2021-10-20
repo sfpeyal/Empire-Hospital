@@ -4,7 +4,7 @@ import useAuth from '../../Hooks/useAuth';
 import './Login.css'
 
 const Login = () => {
-    const { signInUsingGoogle, handleEmailChange, handlePasswordChange, LoginProcess } = useAuth();
+    const { signInUsingGoogle, handleEmailChange, handlePasswordChange, LoginProcess, error } = useAuth();
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.form || '/home';
@@ -31,6 +31,7 @@ const Login = () => {
                         <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
                         <input onBlur={handlePasswordChange} type="password" className="form-control" id="exampleInputPassword1" required />
                     </div>
+                    <div className="mb-3 text-danger"><h6>{error}</h6></div>
                     <button type="submit" className="btn btn-primary">Login</button>
                     <br />
                     <br />
